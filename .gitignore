@@ -1,0 +1,13 @@
+# Build output
+*.bin
+*.rom
+*.lst
+*.sym
+
+# Atari Dev Studio temp files
+sample/*.asm
+sample/*.bas.asm
+
+# OS
+.DS_Store
+Thumbs.db

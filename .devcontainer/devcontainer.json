@@ -1,0 +1,17 @@
+{
+	"name": "Atari Dev Studio",
+	"image": "mcr.microsoft.com/devcontainers/base:trixie",
+	"postCreateCommand": "bash .devcontainer/setup.sh",
+	"remoteEnv": {
+		"DISPLAY": ":1",
+		"XDG_RUNTIME_DIR": "/tmp/runtime-vscode",
+		"SDL_AUDIODRIVER": "dummy"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"chunkypixel.atari-dev-studio"
+			]
+		}
+	}
+}
